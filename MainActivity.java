@@ -1,10 +1,8 @@
-package com.example.naje.myapplication;
+package com.example.naje.sudanesefood;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,14 +11,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button start = findViewById(R.id.firstButton);
+        TextView sudaneseFoodView = findViewById(R.id.food_name);
 
-        start.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Toast.makeText(getApplicationContext(), "Hello Andorid", Toast.LENGTH_LONG).show();
-            }
-        });
+        String[] foodNames = FoodList.getFoodName();
+
+        for (String name : foodNames) {
+            sudaneseFoodView.append(name + "\n\n\n");
+        }
+
     }
-
 }
