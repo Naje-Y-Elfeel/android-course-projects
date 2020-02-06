@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="height">Enter Your Height (Meter)</string>
+    <string name="weight">Enter Your Weight (Kg)</string>
+    <string name="button">CALCULATE</string>
+
+    <string name="result">Stay Health</string>
+
+    <string name="under">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="over">Overweight</string>
+    <string name="obise">Obise !</string>
+
+    <string name="bmi_details">Body mass index (BMI) is a value derived from the mass (weight) and height of a person.
+        The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2,
+        resulting from mass in kilograms and height in metres.
+
+        The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal weight, overweight, or obese
+        based on tissue mass (muscle, fat, and bone) and height.
+        That categorization is the subject of some debate about where on the BMI scale the dividing lines between categories should be placed.
+        Commonly accepted BMI ranges are underweight (under 18.5 kg/m2), normal weight (18.5 to 25), overweight (25 to 30)
+        ,and obese (over 30).
+    </string>
+
+    <string name="openActivity">What is BMI ?</string>
+
+</resources>
